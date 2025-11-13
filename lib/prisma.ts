@@ -5,3 +5,5 @@ const adapter = new PrismaBetterSQLite3({
   url: "file:./prisma/dev.db"
 });
 const prisma = new PrismaClient({ adapter });
+
+export { prisma };
